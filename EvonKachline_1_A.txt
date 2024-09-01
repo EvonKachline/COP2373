@@ -1,0 +1,41 @@
+Name: Evon Kachline
+Date Created: August 18, 2024
+
+---
+
+Program Description: 
+This program is to tell the user how many tickets they are allowed to buy. There is a limit of four tickers per person and 20 tickets total to buy. It is to show how many tickets are left after each buyer.
+
+---
+
+Logical Steps: 
+1: Tell the user how many tickets thee are remaining.
+2: Ask the user how many tickets they would like to purchase.
+3: The user then inputs their number of tickets.
+4: If the user put more then 4 the program will tell them they cant buy more then 4
+5: If the user put amount higher then what is left the program will remind the user how many are left
+6: If the user put in a correct amount of tickets the program will put how many are left and will ask again how many the user would like.
+7: Once all of the tickets are sold, the program will put the total number of buyers.
+---
+
+Variables:
+1: num: Was used for when the user had to input their amount of tickets
+2: total_tickets: Was used to hold the starting number of tickets. 
+3: remaining_tickets: Was used to hold the changing amount of tickets left.
+4: total_buyers: Was used to hold and calculate the amount of buyers at the end.
+---
+
+Functions: 
+1: Function Name: while loop
+   Description: Told the program to keep asking for how many tickets the buyer wanted until there was no more tickets. 
+   Parameters: num_tickets (int)- Had to make sure that the amount of tickets was 4 or less. 
+remaining_tickets-  It also had to make sure there was still enough tickets left for the buyer.  
+   Returns: The function returned the amount of tickets still left and asked again how many the user wants to buy.
+2: Function Name: If/else
+   Description: This will see if the user put more then 4 or more then the remaining tickets in. 
+   Parameters: num_tickets > 4- if the number input was more then 4, then the program will tell the user that they cant buy more then 4 tickets
+   Returns: If the user put in a wrong amount the program will tell the user to try again. But if they put in a correct amount then it will subtract the tickets and display a new remaining amount.
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
