@@ -1,0 +1,31 @@
+Name: Evon Kachline
+Date Created: August 26, 2024
+
+---
+
+Program Description: 
+This program will simulate using a Magic 8 Ball, giving the user a random fortune based on their yes or no questions.
+
+---
+
+Logical Steps: 
+1: Ask the user to enter a yes or no question or press q to quit.
+2: If the user puts a question then it will give one of the responses in the txt file.
+3: If the user put q the program will stop.
+---
+
+Variables:
+1: filename: This stores the txt file that has the responses. 
+2: ques: Tell the program to right the input statement
+---
+
+Functions: 
+1: Function Name: read_txt
+   Description: Told the program to keep asking if the user has a yes or no question or if they want to quit. It will also read the txt file and pick out responses from it. 
+   Parameters: ques!='q'- If the user puts a q then the program stops.
+   Returns: If the user puts in a question the program will return a random response from the txt file.
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
