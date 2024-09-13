@@ -1,3 +1,7 @@
+#Evon Kachline
+#Programming Exercise 2A
+
+
 #Defining the spam keywords that the program needs to catch. 
 spam_keywords = [
     "Free", "Winner", "Congratulations", "Click here", "Apply now", "Limited time", "Urgent", "Offer", "Buy now",
