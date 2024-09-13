@@ -1,0 +1,43 @@
+Name: Evon Kachline
+Date Created: September 9, 2024
+
+---
+
+Program Description: 
+This program will have you write a fake email message and then calculate if your message would be counted as an spam email.
+
+---
+
+Logical Steps: 
+1: Ask the user to write out a message.
+2: If the user put any of the spam words in the message then the program will tell them how many. 
+3: Then the program will tell them how likely their message is spam depending on how many spam words they used.
+4: The program will then display all of the spam words used. 
+---
+
+Variables:
+1: spam_keywords: Holds all of the words that will be flagged as spam.
+2: spam_score: This is the starting score before you write the message.
+3: found_keywords: The spam words that are in the message. 
+4: email_message: The message that is written in the program. 
+---
+
+Functions: 
+1: Function Name: find_spam_score()
+   Description: The function is used to fine the amount of spam words in the message. 
+   Parameters: It adds to the 0 score that the variable spam_score starts with. It will add 1 each time a word form spam_keywords are used.  
+   Returns: It will then return the amount of the spam words used. 
+
+2: Function Name: rate_spam_score()
+   Description: The function will figure how likely that the message is spam.
+   Parameters: The function will look at the spam_score. If it is 0, then it is not spam. if it 5 or less then it is a low chance of spam. If it is 15 or less then it could be spam. If it is higher then 15 then it is spam.
+   Returns: It will return what likely it is spam or if it is not spam. 
+
+3: Function Name: main()
+   Description:  This is the main function and holds what will be outputted. It will also list all of the spam words used.
+   Parameters: It takes the results of the find_spam_score() and rate_spam_score() functions and display them. It will also take the key words that were used from spam_keywords.
+   Returns: It will display the score and likelihood of spam. It will then list all of the spam words used. 
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
