@@ -1,0 +1,41 @@
+Name: Evon Kachline
+Date Created: September 18, 2024
+
+---
+
+Program Description: 
+This program will ask the user for their expenses and tell the total and which is the highest and lowest.
+
+---
+
+Logical Steps: 
+1: The program will ask the user to input their expense or if done to type done. 
+2: If the user put an expense then the program will ask how much it was.  
+3: This will keep going until the user types done.
+4: The program then will calculate and display the total of the expenses and which one was the highest and which was the lowest. 
+---
+
+Variables:
+1: expenses = []: This hold all of the expenses that the user types. 
+ 
+---
+
+Functions: 
+1: Function Name: what_expenses()
+   Description: This function asks what expenses the person has and how much they cost.  
+   Parameters: The program will add a list of the expenses and their prices in the expenses variable. If the user types done then the function will end. 
+   Returns: Will return what the user wrote for the expenses and its prices
+2: Function Name: calculate_expenses()
+   Description: This function will find out the total of the prices types for each expense. It will also figure out which expense had the highest cost and which had the lowest. 
+   Parameters: This function will take the data from the what_expenses() function for its calculations.
+   Returns: Will return the total, highest amount and the lowest amount. 
+3: Function Name: main()
+   Description:  This is the main function and holds what will be outputted. It will display the total amount and tell you which expense is the highest and lowest.
+   Parameters: It takes the results of the calculate_expenses().
+   Returns: It will display total amount and tell you which expense is the highest and lowest.
+
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
