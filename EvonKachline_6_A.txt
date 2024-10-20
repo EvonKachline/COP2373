@@ -1,0 +1,52 @@
+Name: Evon Kachline
+Date Created: October 14, 2024
+
+---
+
+Program Description: 
+This program will ask the user for a phone number, a social security number and zip codes. The program then will tell you if it is valid one. 
+
+---
+
+Logical Steps: 
+1: The program will tell you to put in a phone number. 
+2: The program will then tell you if it is valid or invalid.
+3: The program will tell you to put in a social security number. 
+4: The program will then tell you if it is valid or invalid.
+5: The program will tell you to put in a zip code. 
+6: The program will then tell you if it is valid or invalid.
+---
+
+Variables:
+1: phone_number: this holds the format for the phone numbers
+2: social_security_number: this holds the format for the ssn
+3: zip_code_number: this hold the format for the zip code
+ 
+---
+
+Functions: 
+1: Function Name: main()
+   Description:  This is the main function and it tells the user to put in their numbers. 
+   Parameters: It will take the formats that the other three functions have for each set of numbers to see if it matches the format you put in. 
+   Returns: It will tell the user which of the numbers that they need to put in. 
+
+2: Function Name: insert_phone(phone)
+   Description: This function will hold what pattern the phone number needs to be. It will also figure out if your phone number is valid based on the pattern.  
+   Parameters: The program holds what the phone number pattern is and then will use that pattern to come pare to the number you put in. 
+   Returns: Will return if the phone number is valid or invalid 
+
+3: Function Name: insert_ssn(ssn)
+   Description: This function will hold what pattern the social security number needs to be. It will also figure out if your social security number is valid based on the pattern.  
+   Parameters: The program holds what the social security number pattern is and then will use that pattern to come pare to the number you put in. 
+   Returns: Will return if the social security number is valid or invalid 
+
+4: Function Name: insert_zipcode(zipCode)
+   Description: This function will hold what pattern the zip code needs to be. It will also figure out if your zip code is valid based on the pattern.  
+   Parameters: The program holds what the zip code pattern is and then will use that pattern to come pare to the number you put in. 
+   Returns: Will return if the zip code is valid or invalid 
+
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
