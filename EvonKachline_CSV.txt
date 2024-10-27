@@ -1,0 +1,60 @@
+Name: Evon Kachline
+Date Created: October 26, 2024
+
+---
+
+Program Description: 
+This program will let a teacher input student names and grades. It will then make an excel file to hold those grades. This program is split in two parts. Writing the CSV document and reading the CSV document. 
+---
+Writing the CSV Document
+
+Functions: 
+Writing the CSV Document
+1: Function name: main()
+   Description: This will as the teacher to input the student names and grades. It then makes an excel document and add in these result. 
+   Parameters: Everything that the user write. 
+   Variables: 
+	1: writer: This variables makes the CSV document.
+	2: first_name: This holds the first name of the student.
+	3: last_name: This holds the last name of the student.
+	4: exam1: The results of the first exam.
+	5: exam2: The results of the first exam.
+	6: exam3: The results of the first exam.
+   Logical Steps: 
+	1: The program will ask how many students took the exams
+	2: It will ask the first name of the first student.
+	3: It will ask the last name of the first student.
+	4: It will then ask for the results of all three exams.
+	5: It will repeats with the number of students that the teacher wrote. 
+	6: The program will then tell you that all of the information as been written in the CSV document. 
+    Return: The program will tell you that all grades have been entered. 
+
+Reading the CSV Document
+1: Function name: main()
+   Description: This will read the CSV document and then display a simple chart.
+   Parameters: Uses the information from the CSV document 
+   Variables: 
+	1: reader: This variables reads the CSV document.
+   Logical Steps: 
+	1: The program will read the CSV document made.
+	2: It will then make a chart based on the information.
+    Return: It will return a simple chart of the students and the grades.  
+
+---
+
+
+Logical Steps: 
+1: The program will ask the teacher how many students took the exam.
+2: It will then ask for the first students first name.
+3: Then it will ask for the first students last name.
+4: Then it will ask for each of the three exam grades for the first student.
+5: Steps 2-4 will repeats for each student.
+6: The program will make a CSV document based on the information given. 
+7: It will then read the information and make a simple chart. 
+
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
