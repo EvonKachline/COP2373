@@ -1,0 +1,58 @@
+Name: Evon Kachline
+Date Created: October 24, 2024
+
+---
+
+Program Description: 
+This program will tell the user to input a few sentences, display them and then count how many they are.
+---
+
+Functions: 
+1: Function Name: sentence_check
+   Description: Will look over the sentences to make sure they fit the requirements.
+   Parameters: It has to start with a capital, it has to have real numbers and letters and it has to end in a sign. 
+   Variables: 
+	1. check: This will check if what is written is a complete sentence. 
+	2. number: This will figure out how many sentence the person wrote. 
+	3. sentenceNum: This holds the sentence that the person wrote for this function. 
+   Logical Steps:
+	1: This function will look over the sentence the person wrote in the main function. 
+	2: It will then check how many sentences fit the requirements.
+	3: It will then count out how sentences there were.
+	4: It will return to the main function with the sentences and the amount it found. 
+   Returns: All of the information it gathers will return to the main function for it to display. 
+
+2: Function name: main()
+   Description: This will run the functions and will ask the user to input their sentences. 
+   Parameters: This will take the information that the user put in and the information from the sentence_check function.
+   Variables: 
+	1: sentence: This will hold the sentence that the user inputted
+   Logical Steps: 
+	1: It will tell the user what they need for a full sentence.
+	2: It will then ask the user to write some sentences.
+	3: It will then give the sentence to the sentence_check function to check if it meets the reqirments 
+	4: Once it gets the results it will display them.
+    Return: It will return the sentences and number of them that was found in the sentence_check function. 
+
+---
+
+Variables:
+1. check: Tell the program what to look for in complete sentences.
+2. number: Tell how many sentences there are. 
+3. sentenceNum: This holds the sentence that the person wrote for the sentence_check function. 
+4: sentence: This will hold the sentence that the user inputted
+
+
+---
+
+Logical Steps: 
+1: The program will tell you what is required for a sentence.
+2: It will then ask you to input some sentences.
+3: The program will then find out how many of your sentences were correctly written. 
+4: It will then display the correctly written ones and how many of them were correct. 
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
