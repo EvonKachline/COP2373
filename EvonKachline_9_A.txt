@@ -1,0 +1,118 @@
+Name: Evon Kachline
+Date Created: October 29, 2024
+
+---
+
+Program Description: 
+This program will make a new bank account and then test it with details I give it. 
+---
+
+Functions: 
+1: Function Name: __init__(self, name, account_number, amount, interest_rate):
+   Description: This will hold all of the information types needed to make a bank account.  
+   Variables: 
+	1. name: The name of the person who is making the account.
+	2. account_number: The number of the account.
+	3. amount: Then amount of money in the account.
+	4: interest_rate: The interest rate of the account.
+   Logical Steps:
+	1: This function will hold all of the variables and define them as self for the class.   
+   Returns: none 
+
+2: Function name: calculating_interest_days(self, days):
+   Description: This will calculate the change in interest in a certain amount of days. 
+   Variables: 
+	1: days: The amount of days of interest there are
+	2: interest_rate: The interest rate of the account.
+	3: amount: Then amount of money in the account.
+   Logical Steps: 
+	1: First the function will take the current amount of money and multiply it by the interest rate  divided by 100.
+	2: Then it will be multiped by the days divided by 365.
+    Return: This will return the new interest rate.  
+
+3: Function Name: changed_interest_rate(self, new_interest_rate):
+   Description: This will hold the new interest rate that was found in the last function.   
+   Variables: 
+	1.  new_interest_rate: the new rate of interest. 
+   Logical Steps:
+	1: This function update the interest rate found in calculating_interest_days()
+   Returns: none
+
+4: Function Name: deposit_amount(self, amount):
+   Description: This function will take update the amount of money the account with how much the person puts in.
+   Variables:
+	1.  amount: Then amount of money in the account.
+   Logical Steps:
+	1: The function will figure out if the person put in a positive number of money.
+	2: If it is a positive amount then the amount number will increase.
+	3: If it is not a positive amount then the message of "Your deposit needs to be a positive number" will be shown.
+   Returns: This will return the new amount of money in the account.
+
+5: Function Name: def withdraw_amount(self, amount):
+   Description: This function will update the amount of money in the account with how much the person takes out.   
+   Variables: 
+	1.  amount: Then amount of money in the account.
+   Logical Steps:
+	1: The function will figure out if the person is taking out a positive number of money.
+	2: It will then see if the amount trying to be taken out is less or more then the amount of money in the back account. 
+	3: If the amount is positive and is less then what is in the account then it will update the amount in the back account. 
+	4: If any of these are false then it will display, "Can not withdrawal this amount."
+   Returns: This will return the new amount of money in the account.
+
+6: Function Name: def current_balance_amount(self):
+   Description: This will display the current amount of money.
+   Logical Steps:
+	1: This will take the results of the other functions and display the current amount the money the person has. 
+   Returns: This will return the current balance on the account. 
+
+7: Function Name: def __str__(self):
+   Description: This string function will tell the program how to display all of the information. 
+   Variables:
+	1. name: The name of the person who is making the account.
+	2. account_number: The number of the account.
+	3. amount: Then amount of money in the account.
+	4: interest_rate: The interest rate of the account.
+   Logical Steps:
+	1: This function this function will set up a template of the information of the persons bank account.
+	2: The information it displays is the person name, their account name number, the current balance and the interest rate. 
+   Returns: It will return all of the accounts information for the user. 
+
+8: Function Name: def test():
+   Description: This function will be used to test how the functions above work.
+	1.  account: This is the actual back account
+	2.  balance: This is the current balance of the account.
+	3.  interest: This is the final interest rate. 
+   Logical Steps:
+	1: It will first display the holders name, their account number, the amount of money that is in the account and the current interest rate.
+	2:Then it will display the information a rate change from 10% to 8%.
+	3: Then it will display the information when there is a $870 deposit. 
+	4 It will then display the information when there is a withdraw of $1050.
+	6: It will then display what is the current updated information. 
+	7: Last it will display the information with the interest after 15 days. 
+   Returns: It will display all of this information about the person account. 
+
+---
+
+Variables:
+1. name: The name of the person who is making the account.
+2. account_number: The number of the account.
+3. amount: Then amount of money in the account.
+4: interest_rate: The interest rate of the account.
+5: days: The amount of days of interest there are
+6: account: This is the actual back account
+7.  balance: This is the current balance of the account.
+8.  interest: This is the final interest rate. 
+
+
+
+---
+
+Logical Steps: 
+1:  When the test function runs it will go though all of the other functions with the information given.
+2: It will first give the basic information and then every time it runs it will update with the changes of money and rates. 
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
