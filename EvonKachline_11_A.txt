@@ -1,0 +1,87 @@
+Name: Evon Kachline
+Date Created: November 11, 2024
+
+---
+
+Program Description: 
+This program will deal cards for a game of Poker and then ask if you want to replace any of the cards.
+---
+
+Functions: 
+1: Function Name:  __init__(self, size):
+   Description: This is the program before the deck of cards are shuffled.   
+   Variables: 
+	1. self: Indicates the class Deck().
+	2. size: This holds the size of the deck. 
+   Logical Steps:
+	1: This function tells the program when it gets the information from main() how to put it. 
+	2: It will hold all of the information until needed. 
+   Returns: none 
+
+2: Function name: deal(self):
+   Description: This will shuffle the cards to make your first hand. 
+   Variables: 
+	1: self: Indicates the class Deck().
+	2: new_cards: This represents the new cards in the hand. 
+   Logical Steps: 
+	1: The program will take numbers 1 to 52 and shuffle them. 
+	2: It will then pick 5 numbers at random from the shuffled order.
+	3: It will then display these 5 numbers. 
+    Return: The first hand of cards you get.
+
+3: Function Name: new_hand(self):
+   Description: This function tells the program how to make a new hand.
+   Variables:
+	1.  self:Indicates the class Deck().
+   Logical Steps:
+	1: The program will discard the cards you tell it to in the main() function. 
+	2: It will then pick new cards out of the remining numbers.
+	3: It will then display your new cards. 
+   Returns: Your new hand of cards
+
+4: Function Name: main():
+   Description: It will ask you if you want to play. If you play then it will ask you what cards you want to exchange and then gives you your new hand. 
+   Variables:
+	1. game: This ask if you want to play the game or not.
+	2. deck: This is the deck of 52 cards.
+	3. num_hand: This is the number cards in your hand.
+	4: hand_list: This holds the numbers on the cards in your hand.
+	5: card: This is the cards in the deck.
+	6: exchange: Ask the user which cards they want to exchange. 
+   Logical Steps:
+	1: The program will ask you if you want to play. 
+	2: It will then give you five random cards for your hand. 
+	3: It will then ask you which cards you want to exchange.
+	4: Then you get your new hand.
+   Returns: First it will return your hand of cards and then Your new hand of five cards. 
+ 
+
+---
+
+Variables:
+1. game: This ask if you want to play the game or not.
+2. deck: This is the deck of 52 cards.
+3. num_hand: This is the number cards in your hand.
+4: hand_list: This holds the numbers on the cards in your hand.
+5: exchange: Ask the user which cards they want to exchange.
+6. self: Indicates the class Deck().
+7. size: This holds the size of the deck.  
+8: new_cards: This represents the new cards in the hand.
+9: card: This is the cards in the deck.
+
+
+---
+
+Logical Steps: 
+1: You will be asked if you want to play the game. 
+2: If you type end then the program will stop.
+3: If you type play then it will give five random cards.
+4: It will then ask you if you want to exchange the cards. 
+5: You then type which cards you want to exchange.
+6: The program then will give you your new hand of cards.
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
