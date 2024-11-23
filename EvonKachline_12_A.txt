@@ -1,0 +1,117 @@
+Name: Evon Kachline
+Date Created: November 18, 2024
+
+---
+
+Program Description: 
+This program uses numpy to display different statistic with 10 student grades. 
+---
+
+Functions: 
+1: Function Name: load_CSV(filename):
+   Description:  This function brings up and reads the CSV file of grades. 
+   Variables: 
+	1. reader: This reads the information in the CSV document. 
+	2. header: This is the headings of the CSV document.
+	3. CSV: This holds all of the information that is written from the CSV file. 
+   Logical Steps:
+	1: The function will read the CSV file. 
+	2: It will then crate the numpy array which will show how the document should be formatted. 
+   Returns: The information in the CSV document. 
+
+2: Function name: first_few_rows(CSV, num_rows=5):
+   Description: This function will display the first five students grades to show some of the grades.
+   Variables: 
+	1. CSV: This holds all of the information that is written from the CSV file. 
+   Logical Steps: 
+	1: This function prints out "First few rows of the grade document:"
+	2: It then prints out the first 5 students grades form the CSV document. 
+    Return: The first 5 students grades form the CSV document.
+
+3: Function Name: exam_statistics(CSV):
+   Description: This function will find the statistic of the three exams for the 10 students.
+   Variables:
+	1. num_exam: This will read how many exams are on the CVS.
+	2. exam_scores: This will read the scores for each exam that are on the CVS.
+   Logical Steps:
+	1: The program will read all of the scores of the 10 students for each of the three exams. 
+	2: With the numpy package it will find out the mean, median, standard deviation, minimum number, and the maximum number for each of the three tests. 
+	3: It will then display all of these Mathematical Operations.
+   Returns: It will display the mean, median, standard deviation, minimum number, and the maximum number for each of the three tests. 
+
+4: Function Name: overall_statistics(CSV):
+   Description: This function gives the statistics of all three exams combined.
+   Variables:
+	1. all_scores: This holds all of the scores on the CVS.
+   Logical Steps:
+	1: The program will read all of the scores together of all 10 students. 
+	2: With the numpy package it will find out the mean, median, standard deviation, minimum number, and the maximum number all of the test scores. 
+	3: It will then display all of these Mathematical Operations.
+   Returns:  It will display the mean, median, standard deviation, minimum number, and the maximum number for all of the scores.
+
+5: Function Name: pass_fail(CSV, passing_grade=60):
+   Description: 
+   Variables:
+	1. num_exam: This will read how many exams are on the CVS.
+	2. exam_scores: This will read the scores that are on the CVS.
+	3. passed: This figures out the sum of the passing scores. 
+	4. failed: This figures out the sum of the failed scores.
+   Logical Steps:
+	1: The program reads all of the scores on the CSV document. 
+	2: It will then go though each score in see how many passed or failed. A pass is any score higher then 60.
+	3: It will then display how many passed and failed scores for each of the three exams.
+   Returns: This displays the number of passed and failed scores for each of the three exams. 
+ 
+6: Function Name: pass_percentage(CSV, passing_grade=60):
+   Description: 
+   Variables:
+	1. total_students: This figures out the total amount of the students on the CSV.
+	2. passed_students: This figures out which of the students on the CSV that have passed. 
+	3. pass_percentage: This will figure out the percentage of students that passed.
+   Logical Steps:
+	1: This programs takes all of the numbers of passed and failed scores from pass_fail(CSV, passing_grade=60).
+	2: It then figures out what over all percentage of passing scores from all three exams.
+	3: It then displays the percentage of how many passing scares there were. 
+   Returns:
+
+7: Function Name: main():
+   Description: 
+   Variables:
+	1. filename: This represent the CSV document. 
+	2. CSV: This holds all of the information that is written from the CSV file. 
+   Logical Steps:
+	1: It calls all of the other functions above.
+	2: It then tells the program to run all of the functions.  
+   Returns: It will display what all of the other functions returns are. 
+
+---
+
+Variables:
+1. reader: This reads the information in the CSV document. 
+2. header: This is the headings of the CSV document.
+3. CSV: This holds all of the information that is written from the CSV file.
+4. num_exam: This will read how many exams are on the CVS.
+5. exam_scores: This will read the scores for each exam that are on the CVS. 
+6. all_scores: This holds all of the scores on the CVS.
+7. passed: This figures out the sum of the passing scores. 
+8. failed: This figures out the sum of the failed scores.
+9. total_students: This figures out the total amount of the students on the CSV.
+10. passed_students: This figures out which of the students on the CSV that have passed. 
+11. pass_percentage: This will figure out the percentage of students that passed.
+12. filename: This represent the CSV document. 
+
+---
+
+Logical Steps: 
+1: The program reads the CSV document. 
+2: The program will then display the first 5 students scores of the three exams.
+3: The program will then figure out and display the mean, median, standard deviation, minimum number, and the maximum number for each exam. 
+4: The program will then do this but with the over all scores. 
+5: It will then find and display how many passed and failed scores each exams have. 
+6: Last it will display a percentage of all of the passing scores. 
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
