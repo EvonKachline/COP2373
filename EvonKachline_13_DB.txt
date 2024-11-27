@@ -1,0 +1,95 @@
+Name: Evon Kachline
+Date Created: November 25, 2024
+
+---
+
+Program Description: 
+This program will display the population of 10 cities in Florida and then makes charts that show the population growth over 20 years.
+---
+
+Functions: 
+1: Function Name: population_db():
+   Description: This function will make the SQLite database and store the population date from 2023.
+   Variables: 
+	1. conn: This connects the SQLite database.
+	2. cursor: Executes the database. 
+	3. starting_population: This has all of the starting population in 2023.
+	4. DB_name: Names the database.
+	5. Growth_rate: The rate the population goes up.
+   Logical Steps:
+	1: It first opens up the new data base.
+	2: Then it makes a table to show the state and the population growth. 
+	3: It then fills in that chart with the 10 cities. 
+   Returns: none
+
+2: Function name: population_growth():
+   Description:  This will calculate the population growth for the next 20 years. 
+   Variables: 
+	1. conn: This connects the SQLite database.
+	2. cursor: Executes the database. 
+	3. data: Store the city names and populations. 
+	4. new_population: This has all of the populations after 2023.
+	5. DB_name:  Names the database.
+	6. Growth_rate: The rate the population goes up.
+   Logical Steps: 
+	1:  The program first takes all of the city names from the database. 
+	2: It then figures out the new populations for the next 20 years.
+	3: It then adds these new populations to the chart. 
+    Return: None
+
+3: Function Name: plot_population_growth():
+   Description: This will display all of the cites so the user can choose one to show the chart. 
+   Variables:
+	1. conn: This connects the SQLite database.
+	2. cursor: Executes the database.
+	3. cities: Stores the names of all of the cities in the database.
+	4. choice: This stores the choice of the user. 
+	5. data: Store the city names and populations. 
+	6. years: This takes the years so they can be plotted.
+	7. populations: This takes the populations so they can be plotted.
+   Logical Steps:
+	1: The program will display all 10 cites. 
+	2: The user will then select which city they want to look at. 
+	3: A chart will then be made and pop up.
+	4: When the user exit the chart they can ask to look for anther city.
+	5: The program will stop asking when the user press 0.
+   Returns: None
+
+4: Function Name: main():
+   Description: This holds and calls for the other functions.
+   Variables:
+	1. none  
+   Logical Steps:
+	1: It will call for the other functions to run when they are activated. 
+   Returns:  
+ 
+
+---
+
+Variables:
+1. conn: This connects the SQLite database.
+2. cursor: Executes the database. 
+3. starting_population: This has all of the starting population in 2023.
+4. DB_name: Names the database.
+5. Growth_rate: The rate the population goes up.
+6. data: Store the city names and populations.
+7. new_population: This has all of the populations after 2023.
+8. cities: Stores the names of all of the cities in the database.
+9. choice: This stores the choice of the user.  
+10. years: This takes the years so they can be plotted.
+11. populations: This takes the populations so they can be plotted.
+
+
+---
+
+Logical Steps: 
+1: The program will display all of the 10 cites and ask the user to pick one. 
+2: Once the user pick a city the program will make a chart showing the population growth for the next 20 years.
+3: When the user exit the chart the program will ask again which city they want to look at.
+4: This will repeat until the user types 0.
+---
+
+
+---
+
+Link to repository: https://github.com/EvonKachline/COP2373
